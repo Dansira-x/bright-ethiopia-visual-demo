@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Exclude educational PDF books from deployment
+public/books/
+
+# Exclude old source backup
+src-before-image-path-fix/
+
+public/**/*.pdf
